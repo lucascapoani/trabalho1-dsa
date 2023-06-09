@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "collection",
+    "dateExported": "2023-06-09T20:01:13.961Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "779d2593-0eb8-4d34-83dd-571f92d3c9c8",
+            "colId": "6789c88e-cee3-443a-9dc8-a7f114c6d082",
+            "containerId": "",
+            "name": "Adicionar livro",
+            "url": "http://localhost:3000/books",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-06-09T17:45:54.243Z",
+            "modified": "2023-06-09T19:26:35.385Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"name\":\"Livro 4\",\n  \"isbn\": 88888888,\n  \"author\": \"Mauricio de Souza\",\n  \"editor\": \"Companhia das Letras\",\n  \"year\": \"2001\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "43f074ae-cd5b-4e6e-88b6-6acf6bac77f6",
+            "colId": "6789c88e-cee3-443a-9dc8-a7f114c6d082",
+            "containerId": "",
+            "name": "Mostrar lista de livros",
+            "url": "http://localhost:3000/books",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-06-09T18:30:03.839Z",
+            "modified": "2023-06-09T19:13:30.505Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "57af179b-cd09-499c-8279-73f72ec3d25b",
+            "colId": "6789c88e-cee3-443a-9dc8-a7f114c6d082",
+            "containerId": "",
+            "name": "Atualizar",
+            "url": "http://localhost:3000/books/1",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2023-06-09T19:27:01.490Z",
+            "modified": "2023-06-09T19:28:13.581Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Livro 99\",\n    \"isbn\": 222222222,\n    \"author\": \"Agostinho Carrara\",\n    \"editor\": \"Grande Família\",\n    \"year\": \"1992\",\n    \"id\": 1\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "858d9e53-009a-45e0-af08-a592f266d506",
+            "colId": "6789c88e-cee3-443a-9dc8-a7f114c6d082",
+            "containerId": "",
+            "name": "Deletar",
+            "url": "http://localhost:3000/books/4",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2023-06-09T19:37:01.253Z",
+            "modified": "2023-06-09T19:57:24.705Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

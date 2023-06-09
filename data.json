@@ -1,0 +1,24 @@
+[{
+    "name": "Livro 1",
+    "isbn": 12345678910,
+    "author": "Leleco do Balacobaco",
+    "editor": "Letras Brasileiras",
+    "year": "1994",
+    "id": 1
+},
+{
+    "name": "Livro 2",
+    "isbn": 123999333220,
+    "author": "Débis Morgus",
+    "editor": "Letreco treco",
+    "year": "2002",
+    "id": 2
+},
+{
+    "name": "Livro 3",
+    "isbn": 98765432100,
+    "author": "Paulo Coelho",
+    "editor": "Atitus Educação",
+    "year": "2009",
+    "id": 3
+}]
